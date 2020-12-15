@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "heroku-postbuild": "cd my-portfolio && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,8 @@
     "morgan": "^1.10.0",
     "nodemailer": "^6.4.16"
   },
-  "proxy": "http://localhost:3002/"
+  "proxy": "http://localhost:3002/",
+  "engines": {
+    "node": "12.16.1"
+    }
 }
