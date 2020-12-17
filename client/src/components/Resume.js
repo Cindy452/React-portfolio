@@ -10,7 +10,10 @@ class Resume extends Component {
     const List1 = [
       {description: 'Gained Responsive Web Design Certification, JavaScript Algorithms and Data Structures Certification on freecodecamp  ', key: 0},
       {description: 'Completed 5 courses: React, C#, CSS, HTML, SQL on codecademy', key: 1},
-      {description: 'Completed 3 Courses: Fundamentals of C#, The Complete 2020 Web Development Bootcamp on udemy', key: 2}
+      {description: 'Completed 3 Courses: Fundamentals of C#, The Complete 2020 Web Development Bootcamp on udemy', key: 2},
+      {description: 'Completed a MERN Stack todolist app: https://cindystodoapp.herokuapp.com/', key: 3},
+      {description: 'Completed a ', key: 4},
+      {description: 'Completed 3 Courses: Fundamentals of C#, The Complete 2020 Web Development Bootcamp on udemy', key: 5}
     ];
 
     const List2 = [
@@ -81,7 +84,7 @@ class Resume extends Component {
 
                 <h2>Skills</h2>
               <Skills
-                skill="HTML, CSS, Javascript, C#, Bootstrap, React, Node.js, Express.js, MongoDB, SQL, jQuery"
+                skill="HTML, CSS, Javascript, C#, ASP.NET Core, Bootstrap, React, Node.js, Express.js, MongoDB, SQL, jQuery"
                 />
                <hr style={{borderTop: '3px solid #833fb2'}} />
               <h2>Experience</h2>
