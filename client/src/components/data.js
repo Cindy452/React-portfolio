@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaFacebook, FaLinkedin, FaCodepen } from 'react-icons/fa';
 
 export const social = [
     {
@@ -9,8 +9,8 @@ export const social = [
     },
     {
       id: 2,
-      url: 'https://twitter.com/Cindy97356394',
-      icon: <FaTwitter />,
+      url: 'https://codepen.io/cindy452',
+      icon: <FaCodepen />,
     },
     {
       id: 3,

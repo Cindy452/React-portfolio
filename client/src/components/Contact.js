@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 function Contact() {
 
-  const [inputs, setInputs] = useState({email: '', name: '', subject: '', description: ''})
+  const [inputs, setInputs] = useState({email: '', name: '', subject: '', message: ''})
     const handleChange = e => {
       const {name, value} = e.target
       setInputs(prev => ({...prev, [name]: value }))
@@ -33,7 +33,7 @@ function Contact() {
 
        <div className="form-group">
        <label htmlFor="name">Message</label>
-       <textarea className="form-control" rows="5" name="description" placeholder="tell me about your experience..." required value={inputs.description} onChange={handleChange} ></textarea>
+       <textarea className="form-control" rows="5" name="message" placeholder="tell me about your experience..." required value={inputs.message} onChange={handleChange} ></textarea>
        </div>
 
       <button type="submit" className="btn btn-primary">Submit</button>
