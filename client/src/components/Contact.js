@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import axios from 'axios';
 
 function Contact() {
 
@@ -10,19 +9,7 @@ function Contact() {
     }
     const handleSubmit = e => {
       e.preventDefault()
-      const {email,name,subject,description} = inputs
-      axios.post('/sendtome', {
-        email,
-        name,
-        subject,
-        text: description
-      }).then(function (response) {
-        if (response.data.redirect === '/') {
-            window.location = "/index"
-        } else if (response.data.redirect === '/submit'){
-            window.location = "/submit"
-        }
-    })
+      window.location = '/submit'
     }
   return (
      <div>
