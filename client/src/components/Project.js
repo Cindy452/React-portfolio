@@ -1,6 +1,7 @@
 import React from 'react';
 import {projects} from './projects';
 
+
 const Project = ( {image, title, url }) => {
  return (
     <article className='project'>
