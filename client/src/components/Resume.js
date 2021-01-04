@@ -12,18 +12,11 @@ class Resume extends Component {
       {description: 'Completed 5 courses: React, C#, CSS, HTML, SQL on codecademy', key: 1},
       {description: 'Completed 3 Courses: Fundamentals of C#, The Complete 2020 Web Development Bootcamp, Complete guide to building an app with .Net Core and React on udemy', key: 2},
       {description: 'Created a MERN Stack Exercise Tracker App: https://cindysexerciseapp.herokuapp.com/', key: 3},
-      {description: 'Created Newsletter Sign up App with mailchimp: https://safe-basin-59391.herokuapp.com/', key: 4},
-      {description: 'Created fullstack todo App: https://cindystodoapp.herokuapp.com/', key: 5},
+      {description: 'Created a MERN Stack Memories Editor: https://cindy-memories.netlify.app/', key: 4},
+      {description: 'Created a Fullstack todo App: https://cindytodo.herokuapp.com/', key: 5},
     ];
 
     const List2 = [
-      {description: 'Arrange delivery appointments with customer for live load and drop containers', key: 0},
-      {description: 'Work with dispatcher to arrange a driver for picking up, delivering full containers and returning empty containers', key: 1},
-      {description: 'Check off hire container re-delivery number and return location ', key: 2},
-      {description: 'Submit rail billing or street turn request for export bookings ', key: 3}
-    ];
-
-    const List3 = [
       {description: 'Facilitates the flow of purchase orders to accounts receivable insuring they are proper and correct ', key: 0},
       {description: 'Communicates with customer purchasing departments as well as individual customers for billing and collections', key: 1},
       {description: 'Submits invoices to customers for approval', key: 2},
@@ -50,7 +43,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>cindyhui546@gmail.com</p>
             <h5>Web</h5>
-            <p>https://cindys-react-portfolio.netlify.app/</p>
+            <p>https://cindysportfolioapp.herokuapp.com/</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
           </Col>
           </Row>
@@ -79,7 +72,7 @@ class Resume extends Component {
               <h2>Experience</h2>
               <Experience
               startYear={2020.7}
-              endYear={2020.12}
+              endYear={2021}
               jobName="FreeCodeCamp, Udemy, Codecademy"
              jobDescription= {List1.map(question => {
           return (
@@ -88,22 +81,11 @@ class Resume extends Component {
         })}
               />
                 <hr style={{borderTop: '10px'}} />
-            <Experience
-              startYear={2020.5}
-              endYear={2020.6}
-              jobName="Land network trucking LP., Houston, Texas, USA"
-              jobDescription= {List2.map(question => {
-          return (
-            <li key={question.key}>{question.description}</li>
-          );
-        })}
-              />
-               <hr style={{borderTop: '10px'}} />
               <Experience
                 startYear={2017.5}
                 endYear={2020.1}
                 jobName="Allied Stone Inc., Jersey Village, Texas, USA"
-                jobDescription= {List3.map(question => {
+                jobDescription= {List2.map(question => {
           return (
             <li key={question.key}>{question.description}</li>
           );

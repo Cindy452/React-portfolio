@@ -24,7 +24,7 @@ export const projects = [
       id: 3,
       title:  'Full Stack Todo List',
       image: `${todo}`,
-      url: 'https://cindytodo.herokuapp.com//'
+      url: 'https://cindytodo.herokuapp.com/'
      
     },
     
