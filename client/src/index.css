@@ -6,6 +6,8 @@
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
+  --clr-blue:  #0052a4;
+  --clr-blue-dark: #0e80f1;
   --clr-black: #222;
   --clr-grey: #cecaca;
   --clr-white: #f8f9fa;
@@ -75,8 +77,8 @@ body {
   }
   
   .project h1 {
-    font-size: 20px;
-    margin-top: 0.5rem;
+    font-size: 23px;
+    margin-top: 1.5rem;
   }
   
   .image {
@@ -87,7 +89,7 @@ body {
 
   .image:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(37,33,82,.12), 0 4px 8px rgba(37,33,82,.06);
+    box-shadow: 0 10px 20px rgba(37,33,82,.12), 0 4px 8px rgba(19, 17, 43, 0.06);
   }
 
   .nav-toggle {
@@ -111,9 +113,9 @@ body {
     color: var( --clr-green-light);
     font-weight: bold;
     font-size: 1.5rem;
-}
+} 
 
-a:hover {
+ a:hover {
     color:var(--clr-green-dark);
     text-decoration: none;
 }
@@ -130,7 +132,12 @@ a:hover {
 .profile p {
   float: right;
 }
- 
+
+.title {
+    color: var(--clr-blue);
+    font-weight: bold;
+    margin: 40px;
+}
 
   @media screen and (min-width: 800px) {
    

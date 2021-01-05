@@ -1,12 +1,33 @@
 import React from 'react';
+import Button from 'reactstrap/lib/Button';
 import {projects} from './projects';
 
 
-const Project = ( {image, title, url }) => {
+const Project = ( {image, title, content, url, source }) => {
  return (
     <article className='project'>
-       <img className='image' src={image} alt='' />
-      <h1><a href={url}>{title}</a></h1>
+    <a href={url}><img className='image' src={image} alt='' /></a>
+    <h1 className='title'>{title}</h1>
+    <p>{content}</p>
+    <Button style={{borderRadius: '25px', margin: '12px'}}
+      outline
+      tag="a"
+      color="primary"
+      size="large"
+      href={url} 
+      target="_blank">
+     Live Demo
+    </Button>
+    <Button style={{borderRadius: '25px'}}
+      outline
+      tag="a"
+      color="info"
+      size="large"
+      href={source} 
+      target="_blank">
+     View Code
+    </Button>
+
     
     </article>
   )

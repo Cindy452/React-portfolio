@@ -33,7 +33,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Changhui(Cindy) McReynolds</h2>
             <h4 style={{color: 'grey'}}>Self taught Web Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
-            <p>I was an administrative assistant in the construction and transportation field. After three years experience, I realize the way I didn't grow. So I decided to change my career to dive into web Developement industry and haven't looked back. Now I'm a self taught web developer and I am looking forward to finding a full-time position where I can offer my existing skills and talents to help my future employer, while also having the opportunity to learn and grow new skills along the way.
+            <p>I was an administrative assistant in the construction field. After three years experience, I realize the way I didn't grow. So I decided to change my career to dive into web Developement industry and haven't looked back. Now I'm a self taught web developer and I am looking forward to finding a full-time or part-time position where I can offer my existing skills and talents to help my future employer, while also having the opportunity to learn and grow new skills along the way.
 </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
             <h5>Address</h5>
