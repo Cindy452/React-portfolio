@@ -19,7 +19,7 @@ export const projects = [
       title:  'Exercises Tracker',
       content: 'This project is using React, React-Router, Bootstrap, Node.js, Express & MongoDB, It is a simple exercises tracker MERN application that allows users to create, read, update and delete exercises record.',
       image: `${exercises}`,
-      url: 'https://cindysexerciseapp.herokuapp.com/',
+      url: 'https://cindy-exercise.herokuapp.com/',
       source: 'https://github.com/Cindy452/ExerciseApp'
      
     },
