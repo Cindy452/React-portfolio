@@ -6,7 +6,7 @@ import {projects} from './projects';
 const Project = ( {image, title, content, url, source }) => {
  return (
     <article className='project'>
-    <a href={url}><img className='image' src={image} alt='' /></a>
+    <a rel="noreferrer" href={url} target='_blank'><img className='image' src={image} alt='' /></a>
     <h1 className='title'>{title}</h1>
     <p>{content}</p>
     <Button style={{borderRadius: '25px', margin: '12px'}}
