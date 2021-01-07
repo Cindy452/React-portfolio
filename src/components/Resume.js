@@ -43,7 +43,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>cindyhui546@gmail.com</p>
             <h5>Web</h5>
-            <p>https://cindysportfolioapp.herokuapp.com/</p>
+            <p>https://cindycoding.netlify.app/</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
           </Col>
           </Row>
