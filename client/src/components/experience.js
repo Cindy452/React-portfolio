@@ -6,10 +6,16 @@ class Experience extends Component {
     return(
       <Row> 
       <Col>
-          <h5 style={{fontWeight: 500}} >{this.props.jobName} <p></p>{this.props.startYear} - {this.props.endYear}</h5>
-         {this.props.jobDescription}
-       
-      </Col>
+          <h4 style={{fontWeight: 500}} >
+          {this.props.jobName}
+         <p></p>
+          {this.props.startYear} - {this.props.endYear}
+          </h4>
+          <p></p>
+          <p style={{listStylePosition: 'inside', textIndent: '-1em', paddingLeft: '1em'}}>
+          {this.props.jobDescription}
+          </p>
+       </Col>
       </Row>
     
     )
@@ -17,5 +23,4 @@ class Experience extends Component {
 }
 
 export default Experience;
-
 

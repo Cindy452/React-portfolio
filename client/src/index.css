@@ -172,3 +172,10 @@ body {
       color: var(--clr-red-dark);
     }
   }
+
+  @media only screen and (device-width: 768px) {
+    .projectlist {
+      grid-template-columns: repeat(2, 1fr);
+    }
+   
+  }

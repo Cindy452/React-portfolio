@@ -76,18 +76,19 @@ class Resume extends Component {
               jobName="FreeCodeCamp, Udemy, Codecademy"
              jobDescription= {List1.map(question => {
           return (
-            <li key={question.key}>{question.description}</li>
+            <li key={question.key} style={{lineHeight: 2 }}>{question.description}</li>
           );
         })}
               />
                 <hr style={{borderTop: '10px'}} />
-              <Experience
+              <Experience style={{listStylePosition: 'outside'}}
                 startYear={2017.5}
                 endYear={2020.1}
                 jobName="Allied Stone Inc., Jersey Village, Texas, USA"
                 jobDescription= {List2.map(question => {
           return (
-            <li key={question.key}>{question.description}</li>
+            <li key={question.key} style={{textAlign: 'left', lineHeight: 2}}>{question.description}</li>
+           
           );
         })}
                 />
