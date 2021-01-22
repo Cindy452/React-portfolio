@@ -13,7 +13,7 @@ class Resume extends Component {
       {description: 'Completed 3 Courses: Fundamentals of C#, The Complete 2020 Web Development Bootcamp, Complete guide to building an app with .Net Core and React on udemy', key: 2},
       {description: 'Created a MERN Stack Exercise Tracker App: https://cindysexerciseapp.herokuapp.com/', key: 3},
       {description: 'Created a MERN Stack Memories Editor: https://cindy-memories.netlify.app/', key: 4},
-      {description: 'Created a Fullstack todo App: https://cindytodo.herokuapp.com/', key: 5},
+      {description: 'Created a Fullstack Face detection App: https://face-detections-app.herokuapp.com/', key: 5},
     ];
 
     const List2 = [
@@ -43,7 +43,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>cindyhui546@gmail.com</p>
             <h5>Web</h5>
-            <p>https://cindycoding.netlify.app/</p>
+            <p>https://cindy-coding.herokuapp.com/</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
           </Col>
           </Row>
